@@ -1,0 +1,1 @@
+self.__SSG_MANIFEST=new Set(["\u002Fbattlefield\u002F[id]","\u002Freflection\u002F[id]","\u002Fworldboss\u002F[id]"]);self.__SSG_MANIFEST_CB&&self.__SSG_MANIFEST_CB()

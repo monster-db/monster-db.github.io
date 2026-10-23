@@ -1,0 +1,2149 @@
+{
+  "zones": {
+    "fire_pit": {
+      "id": 27,
+      "name": "The Fire Pit",
+      "mode": "Fire Pit",
+      "type": "PvEPvP",
+      "pvp": "PK On: All vs All",
+      "color": 15158332,
+      "description": "Hostile volcanic cavern zone featuring dangerous guardians and free-for-all open world player killing.",
+      "imageUrl": "https://monster-db.github.io/images/maps/The%20Fire%20Pit.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      },
+      "bosses": [
+        {
+          "id": "10073",
+          "name": "Pyre Lord Azjolor",
+          "level": 95,
+          "title": "Fire Pit Guardian",
+          "img": "https://monster-db.github.io/images/monsters/10073.webp",
+          "url": "https://monster-db.github.io/worldboss/azjolor"
+        },
+        {
+          "id": "10072",
+          "name": "Rakdos",
+          "level": 85,
+          "title": "Fire Pit Guardian",
+          "img": "https://monster-db.github.io/images/monsters/10072.webp",
+          "url": "https://monster-db.github.io/worldboss/rakdos"
+        }
+      ]
+    },
+    "deathmatch": {
+      "id": 101,
+      "name": "Athanor",
+      "mode": "Deathmatch",
+      "type": "Battlefield",
+      "pvp": "Deathmatch Arena",
+      "color": 10181046,
+      "description": "A high-intensity battlefield where teams clash in direct combat to achieve maximum eliminations.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Athanor.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      }
+    },
+    "flagmatch": {
+      "id": 102,
+      "name": "Aegis",
+      "mode": "Flagmatch",
+      "type": "Battlefield",
+      "pvp": "Flagmatch Arena (Capture Flag)",
+      "color": 3447003,
+      "description": "Tactical objective battlefield requiring coordination to seize and defend sacred flags.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Aegis.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      }
+    },
+    "battle_of_atlantis": {
+      "id": 103,
+      "name": "Battle of Atlantis",
+      "mode": "Battle of Atlantis",
+      "type": "Battlefield",
+      "pvp": "Submerged Ruins PvP Battle",
+      "color": 1752220,
+      "description": "Ancient submerged aquatic arena where combatants battle amidst sunken ruins.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Battle%20of%20Atlantis.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      }
+    },
+    "capture_the_flag": {
+      "id": 104,
+      "name": "Aeterna",
+      "mode": "Capture the Flag",
+      "type": "Battlefield",
+      "pvp": "Capture The Flag Arena",
+      "color": 3066993,
+      "description": "Large-scale strategic battlefield focusing on flag infiltration, escort, and base defense.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Aeterna.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      }
+    },
+    "molten_arena": {
+      "id": 105,
+      "name": "Molten Arena",
+      "mode": "Molten Arena",
+      "type": "Battlefield",
+      "pvp": "Pure Skill Elimination (Strict Restrictions)",
+      "color": 15105570,
+      "description": "A brutal gladiatorial arena surrounded by magma. Mounts, potions, transformations, and pets are completely prohibited.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Molten%20Arena.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "No",
+        "transformations": "No",
+        "pets": "No",
+        "consumables": "No"
+      }
+    },
+    "colosseum": {
+      "id": 106,
+      "name": "Colosseum",
+      "mode": "Colosseum",
+      "type": "Battlefield",
+      "pvp": "Gladiatorial Colosseum",
+      "color": 15844367,
+      "description": "Classic circular amphitheater built for grand gladiatorial showdowns and spectacle.",
+      "imageUrl": "https://monster-db.github.io/images/maps/Colosseum.webp",
+      "restrictions": {
+        "teleportTo": "No",
+        "mounts": "Allowed",
+        "transformations": "Allowed",
+        "pets": "Allowed",
+        "consumables": "Allowed"
+      }
+    }
+  },
+  "schedule": [
+    {
+      "time": "00:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "01:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "01:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "01:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "02:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "02:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "02:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "03:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "03:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "03:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "04:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "04:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "04:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "05:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "05:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "05:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "06:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "06:25:48",
+      "mode": "Colosseum",
+      "zoneKey": "colosseum",
+      "zoneName": "Colosseum",
+      "days": {
+        "MON": [
+          "colosseum"
+        ],
+        "TUE": [
+          "colosseum"
+        ],
+        "WED": [
+          "colosseum"
+        ],
+        "THU": [
+          "colosseum"
+        ],
+        "FRI": [
+          "colosseum"
+        ],
+        "SAT": [
+          "colosseum"
+        ],
+        "SUN": [
+          "colosseum"
+        ]
+      }
+    },
+    {
+      "time": "06:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "07:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "07:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "07:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "08:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "08:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "08:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "09:01:48",
+      "mode": "Fire Pit",
+      "zoneKey": "fire_pit",
+      "zoneName": "The Fire Pit",
+      "days": {
+        "SUN": [
+          "fire_pit"
+        ],
+        "FRI": [
+          "fire_pit"
+        ],
+        "SAT": [
+          "fire_pit"
+        ]
+      }
+    },
+    {
+      "time": "09:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "09:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "10:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "10:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "10:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "11:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "11:25:48",
+      "mode": "Colosseum",
+      "zoneKey": "colosseum",
+      "zoneName": "Colosseum",
+      "days": {
+        "MON": [
+          "colosseum"
+        ],
+        "TUE": [
+          "colosseum"
+        ],
+        "WED": [
+          "colosseum"
+        ],
+        "THU": [
+          "colosseum"
+        ],
+        "FRI": [
+          "colosseum"
+        ],
+        "SAT": [
+          "colosseum"
+        ],
+        "SUN": [
+          "colosseum"
+        ]
+      }
+    },
+    {
+      "time": "11:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "12:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "12:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "12:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "13:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "13:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "13:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "14:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "14:25:48",
+      "mode": "Colosseum",
+      "zoneKey": "colosseum",
+      "zoneName": "Colosseum",
+      "days": {
+        "MON": [
+          "colosseum"
+        ],
+        "TUE": [
+          "colosseum"
+        ],
+        "WED": [
+          "colosseum"
+        ],
+        "THU": [
+          "colosseum"
+        ],
+        "FRI": [
+          "colosseum"
+        ],
+        "SAT": [
+          "colosseum"
+        ],
+        "SUN": [
+          "colosseum"
+        ]
+      }
+    },
+    {
+      "time": "14:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "15:01:48",
+      "mode": "Fire Pit",
+      "zoneKey": "fire_pit",
+      "zoneName": "The Fire Pit",
+      "days": {
+        "MON": [
+          "fire_pit"
+        ],
+        "TUE": [
+          "fire_pit"
+        ],
+        "WED": [
+          "fire_pit"
+        ],
+        "THU": [
+          "fire_pit"
+        ],
+        "FRI": [
+          "fire_pit"
+        ],
+        "SAT": [
+          "fire_pit"
+        ],
+        "SUN": [
+          "fire_pit"
+        ]
+      }
+    },
+    {
+      "time": "15:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "15:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "16:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "16:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "16:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "17:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "17:25:48",
+      "mode": "Colosseum",
+      "zoneKey": "colosseum",
+      "zoneName": "Colosseum",
+      "days": {
+        "MON": [
+          "colosseum"
+        ],
+        "TUE": [
+          "colosseum"
+        ],
+        "WED": [
+          "colosseum"
+        ],
+        "THU": [
+          "colosseum"
+        ],
+        "FRI": [
+          "colosseum"
+        ],
+        "SAT": [
+          "colosseum"
+        ],
+        "SUN": [
+          "colosseum"
+        ]
+      }
+    },
+    {
+      "time": "17:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "18:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "18:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "18:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "19:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "19:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "19:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "20:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "20:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "20:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "21:01:48",
+      "mode": "Fire Pit",
+      "zoneKey": "fire_pit",
+      "zoneName": "The Fire Pit",
+      "days": {
+        "SUN": [
+          "fire_pit"
+        ],
+        "FRI": [
+          "fire_pit"
+        ],
+        "SAT": [
+          "fire_pit"
+        ]
+      }
+    },
+    {
+      "time": "21:25:48",
+      "mode": "Battle of Atlantis",
+      "zoneKey": "battle_of_atlantis",
+      "zoneName": "Battle of Atlantis",
+      "days": {
+        "MON": [
+          "battle_of_atlantis"
+        ],
+        "TUE": [
+          "battle_of_atlantis"
+        ],
+        "WED": [
+          "battle_of_atlantis"
+        ],
+        "THU": [
+          "battle_of_atlantis"
+        ],
+        "FRI": [
+          "battle_of_atlantis"
+        ],
+        "SAT": [
+          "battle_of_atlantis"
+        ],
+        "SUN": [
+          "battle_of_atlantis"
+        ]
+      }
+    },
+    {
+      "time": "21:45:48",
+      "mode": "Capture the Flag",
+      "zoneKey": "capture_the_flag",
+      "zoneName": "Aeterna",
+      "days": {
+        "MON": [
+          "capture_the_flag"
+        ],
+        "TUE": [
+          "capture_the_flag"
+        ],
+        "WED": [
+          "capture_the_flag"
+        ],
+        "THU": [
+          "capture_the_flag"
+        ],
+        "FRI": [
+          "capture_the_flag"
+        ],
+        "SAT": [
+          "capture_the_flag"
+        ],
+        "SUN": [
+          "capture_the_flag"
+        ]
+      }
+    },
+    {
+      "time": "22:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "22:25:48",
+      "mode": "Colosseum",
+      "zoneKey": "colosseum",
+      "zoneName": "Colosseum",
+      "days": {
+        "MON": [
+          "colosseum"
+        ],
+        "TUE": [
+          "colosseum"
+        ],
+        "WED": [
+          "colosseum"
+        ],
+        "THU": [
+          "colosseum"
+        ],
+        "FRI": [
+          "colosseum"
+        ],
+        "SAT": [
+          "colosseum"
+        ],
+        "SUN": [
+          "colosseum"
+        ]
+      }
+    },
+    {
+      "time": "22:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    },
+    {
+      "time": "23:05:48",
+      "mode": "Molten Arena",
+      "zoneKey": "molten_arena",
+      "zoneName": "Molten Arena",
+      "days": {
+        "MON": [
+          "molten_arena"
+        ],
+        "TUE": [
+          "molten_arena"
+        ],
+        "WED": [
+          "molten_arena"
+        ],
+        "THU": [
+          "molten_arena"
+        ],
+        "FRI": [
+          "molten_arena"
+        ],
+        "SAT": [
+          "molten_arena"
+        ],
+        "SUN": [
+          "molten_arena"
+        ]
+      }
+    },
+    {
+      "time": "23:25:48",
+      "mode": "Deathmatch",
+      "zoneKey": "deathmatch",
+      "zoneName": "Athanor",
+      "days": {
+        "MON": [
+          "deathmatch"
+        ],
+        "TUE": [
+          "deathmatch"
+        ],
+        "WED": [
+          "deathmatch"
+        ],
+        "THU": [
+          "deathmatch"
+        ],
+        "FRI": [
+          "deathmatch"
+        ],
+        "SAT": [
+          "deathmatch"
+        ],
+        "SUN": [
+          "deathmatch"
+        ]
+      }
+    },
+    {
+      "time": "23:45:48",
+      "mode": "Flagmatch",
+      "zoneKey": "flagmatch",
+      "zoneName": "Aegis",
+      "days": {
+        "MON": [
+          "flagmatch"
+        ],
+        "TUE": [
+          "flagmatch"
+        ],
+        "WED": [
+          "flagmatch"
+        ],
+        "THU": [
+          "flagmatch"
+        ],
+        "FRI": [
+          "flagmatch"
+        ],
+        "SAT": [
+          "flagmatch"
+        ],
+        "SUN": [
+          "flagmatch"
+        ]
+      }
+    }
+  ]
+}
